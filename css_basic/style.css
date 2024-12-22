@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+}
+main {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    flex: auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+article {
+    flex: 2; 
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: #f0f8ff;
+    overflow-y: auto;
+}
+aside {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid green;
+    background-color: #f5f5dc;
+    overflow-y: auto;
+}
