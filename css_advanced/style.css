@@ -1,0 +1,82 @@
+header {
+    background-image: url('images/object.png');
+    background-size: cover;  
+    background-position: center; 
+    height: 1000px;  
+}
+/* Basic reset and styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #333; /* Set a background color for the header */
+    padding: 20px 40px; /* Add padding to give space around the header */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center align vertically */
+    position:relative;
+}
+
+/* Logo styling */
+nav img {
+    height: 50px; /* Set the size of the logo */
+    width: auto;
+    float: top;
+    position: absolute; /* Fixed position relative to the viewport */
+    top: 20px; /* 20px from the top of the page */
+    left: 20px; /* 20px from the right of the page */
+    color: white; 
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 16px;
+    
+}
+
+/* Styling for the navigation list */
+nav ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the items in a row */
+    position: absolute; /* Fixed position relative to the viewport */
+    top: 20px; /* 20px from the top of the page */
+    right: 20px; /* 20px from the right of the page */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 16px;
+}
+
+/* Styling for each navigation list item */
+nav ul li {
+    margin-left: 40px; /* Space between menu items */
+}
+
+/* Styling for the navigation links */
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set the text color */
+    font-size: 16px; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+nav ul li a:hover {
+    color: #f0a500; /* Change color when hovering over links */
+}
+h1 {
+    width: 200px; /* Set the width of the element */
+    height: 100px;
+    color: white;
+    text-align: center; /* Center the text inside the box */
+    line-height: 100px; /* Vertically center the text */
+    margin: auto;
+    position:relative;
+    background-color: blue;
+
+}
