@@ -1,0 +1,120 @@
+
+.links {
+position: absolute;
+top: 50px;
+right: 20px;
+display: flex;           /* Align items horizontally */
+list-style-type: none;   /* Remove default list styling */
+padding: 0;
+margin: 10px;
+margin-left: 25px;
+font-weight: bold;
+
+
+}
+.container {
+    display: flex;
+    justify-content: space-around; /* Optional: space out the images evenly */
+}
+
+.container img {
+    margin-right: 10px; /* Optional: space between images */
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image {
+    width: 100%;   /* Adjust to the width you want */
+    height: auto;  /* Maintains aspect ratio */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);  /* Optional background for readability */
+    padding: 10px;
+    border-radius: 5px;
+}
+.logo {
+    text-align:left;  /* Centers text horizontally */
+    margin-bottom: 200px;
+    width: 50%;  /* Reduces the width to 50% of its container */
+    height: auto
+
+}
+main {
+    text-align: center;  /* Centers text horizontally */
+}
+.container {
+    display: flex;          /* Use flexbox layout */
+    flex-wrap: wrap;        /* Allow wrapping of items on smaller screens */
+    justify-content: space-between;  /* Distribute items evenly */
+    gap: 20px;              /* Adds space between each section */
+}
+
+.section {
+    flex: 1 1 30%;          /* Make each section flexible (with a minimum width of 30%) */
+    padding: 10px;          /* Adds padding inside each section */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+h3, h4 {
+    margin: 10px 0;         /* Adds space above and below headings */
+}
+
+p {
+    margin: 0;              /* Removes margin around paragraphs */
+}
+header {
+    background: url('images/headphones_hero_1.jpg') no-repeat center center/cover;
+    height: 700px; /* Set the height of the header */
+    color: white;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+     /* Set the height of the header */
+ /* Enables flexbox layout */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: flex-start; /* Aligns content to the top */
+    text-align: center; /* Ensures text is centered horizontally */
+    color: white; /* Change text color for contrast */
+    padding-top: 40px;
+}
+button {
+    background-color: #ef9494; /* Green background */
+    color: white; /* White text */
+    border: none; /* Removes border */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+    background-color: #f49494;}
+.second-background{
+    background: url('images/headphones_hero_2.jpg') no-repeat center center/cover;
+    height: 700px; /* Set the height of the header */
+    color: white;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+     /* Set the height of the header */
+ /* Enables flexbox layout */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: flex-start; /* Aligns content to the top */
+    text-align: center; /* Ensures text is centered horizontally */
+    color: white; /* Change text color for contrast */
+    padding-top: 40px;
+}
